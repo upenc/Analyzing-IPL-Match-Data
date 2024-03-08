@@ -15,7 +15,7 @@ IPL's combination of high-quality cricket, star power, entertainment, and commer
 * Step 6 | Player Performance Analysis
 * Step 7 | Team Performance Analysis
 
-**Introduction to the dataset:** IPL match data spanning from 2008 to 2021.
+**Introduction to the dataset:** IPL match data spanning from 2008 to 2022.
 
 * **Total_matches details:** The dataset contains information about cricket matches, including details such as the match ID, city, date, season, match number, teams involved, venue, toss winner, toss decision, whether a super over occurred, the winning team, win margin, player of the match, team players, and umpires.
    
