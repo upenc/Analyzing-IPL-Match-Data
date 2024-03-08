@@ -1,4 +1,4 @@
-# IPL-2008-to-2022-Analysis-Using-SQL
+<h1 align="center"><font color=#ff6200> IPL (2008 to 2022) Analysis Using SQL</font></h1>
 Explore the exciting world of Indian Premier League (IPL) through this data analysis project!
 
 
@@ -8,15 +8,12 @@ IPL's combination of high-quality cricket, star power, entertainment, and commer
 <h2 align="center"><font color=#ff6200>Table of Contents:</font></h2>
     
 * Step 1 | Introduction
-* Step 2 | Initial Data Analysis
-    - Step 2.1 | Dataset Overview
-    - Step 2.2 |Uploading Dataset into Postgres Database
-* Step 3 | Data Cleaning & Transformation
-    - Step 3.1 | Handling Missing Values
-    - Step 3.2 | Handling Duplicates
-* Step 4 | Match Overview AND TossEmpact
-* Step 5 | Player Performance Analysis
-* Step 6 | Team Performance Analysis
+* Step 2 | Dataset Overview
+* Step 3 | Uploading Dataset into Postgres Database
+* Step 4 | Data Cleaning & Transformation
+* Step 5 | Match Overview AND TossEmpact
+* Step 6 | Player Performance Analysis
+* Step 7 | Team Performance Analysis
 
 **Introduction to the dataset:** IPL match data spanning from 2008 to 2021.
 
@@ -37,7 +34,7 @@ All null values in the dataset have been addressed:
 * 'WinningTeam' column: Filled with 'None'.
 * 'Method' column: Dropped to eliminate high null count.
 
-**Match Overview** 
+## Match Overview
 - Total number of matches : **950**
 - Total Matches Played Each Season
 - * MAX **76** in 2013.
@@ -94,6 +91,16 @@ Rising Pune Supergiants , Delhi Daredevils , Kings XI Punjab , Deccan Chargers ,
 
 - **Mumbai Indians** stand out as the most successful team with the highest number of overall wins and final victories.
 - **Kolkata Knight Riders** and **Chennai Super Kings** also have notable performance, consistently securing wins.
-- **Gujarat Titans**, **Lucknow Super Giants**, and **Pune Warriors** show relatively fewer wins, indicating room for improvement.
+- In most IPL seasons, the team with the highest number of wins during the regular season also emerged as the final winner, indicating a consistent trend of regular-season dominance translating into playoff success.
+- **Delhi Capitals** and **Kings XI Punjab** boast the best winning records in **super over** matches
+
+## More Detailed SQL Queries and Analysis
+For more detailed SQL queries and analysis, please refer to the [Player Performance Analysis](https://github.com/upenc/Analyzing-IPL-Match-Data/blob/main/Player_Perforance_Analysis.sql) , [Team Performance Analysis](https://github.com/upenc/Analyzing-IPL-Match-Data/blob/main/Team_Performance_Analysis.sql) , [Match Overview Analysis](https://github.com/upenc/Analyzing-IPL-Match-Data/blob/main/Match_Overview.sql) in this repository. The SQL file contains a comprehensive set of queries and analyses exploring various aspects of the IPL dataset.
+
+## Contributions
+Contributions are welcome! If you have any suggestions, improvements, or additional analyses to add, feel free to fork this repository, make your changes, and submit a pull request.
+
+## Thank You
+Thank you for visiting this repository and showing interest in the IPL dataset analysis. Your contributions help improve the quality and depth of the analyses provided here.
 
 
